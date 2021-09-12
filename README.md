@@ -1,9 +1,13 @@
 # Go-API-Gin
 
-#### Initialize and run project
+#### Initialize application
 ```sh
 go mod init Go-API-Gin
 go get -u github.com/gin-gonic/gin
+```
+
+#### Run application
+```sh
 go run source/main.go
 ```
 
