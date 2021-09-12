@@ -1,4 +1,4 @@
-module Go-API
+module Go-API-Gin
 
 go 1.17
 

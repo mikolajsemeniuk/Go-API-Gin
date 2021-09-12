@@ -7,5 +7,5 @@ import (
 )
 
 func Hello(context *gin.Context) {
-	context.String(http.StatusOK, "hello there")
+	context.String(http.StatusOK, "hello there again")
 }

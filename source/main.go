@@ -1,6 +1,6 @@
 package main
 
-import "Go-API/source/application"
+import "Go-API-Gin/source/application"
 
 func main() {
 	application.StartUp()
