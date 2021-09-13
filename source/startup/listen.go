@@ -8,7 +8,7 @@ var (
 	router = gin.Default()
 )
 
-func (c *Startup) Listen(port ...string) {
+func (startup *Startup) Listen(port ...string) {
 	if len(port) == 0 {
 		router.Run()
 	} else {
