@@ -1,6 +1,6 @@
 package main
 
-import application "Go-API-Gin/source/startup"
+import "Go-API-Gin/source/application"
 
 func main() {
 	application.Route().Listen(":4000")

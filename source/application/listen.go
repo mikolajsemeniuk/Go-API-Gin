@@ -1,4 +1,4 @@
-package startup
+package application
 
 import (
 	"github.com/gin-gonic/gin"
@@ -8,7 +8,7 @@ var (
 	router = gin.Default()
 )
 
-func (startup *Startup) Listen(port ...string) {
+func (*Application) Listen(port ...string) {
 	if len(port) == 0 {
 		router.Run()
 	} else {
