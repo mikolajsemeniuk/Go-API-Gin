@@ -1,4 +1,4 @@
-package controllers
+package hello
 
 import (
 	"net/http"
@@ -6,6 +6,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func Hello(context *gin.Context) {
+func Hi(context *gin.Context) {
 	context.String(http.StatusOK, "hello there again")
 }
